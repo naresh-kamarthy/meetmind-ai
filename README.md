@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="meetmind-client/public/favicon.svg" alt="MeetMind AI Banner" width="100%">
+  <img src="meetmind-client/public/favicon.svg" alt="MeetMind AI Banner" width="120" height="120">
 
   <h1>MeetMind AI</h1>
   <p><strong>AI-Powered Meeting Notes & Task Manager SaaS</strong></p>
