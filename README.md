@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://via.placeholder.com/1200x400/000000/FFFFFF/?text=MeetMind+AI" alt="MeetMind AI Banner" width="100%">
+  <img src="meetmind-client/public/favicon.svg" alt="MeetMind AI Banner" width="100%">
 
   <h1>MeetMind AI</h1>
   <p><strong>AI-Powered Meeting Notes & Task Manager SaaS</strong></p>
@@ -161,15 +161,6 @@ graph TD
 
 ---
 
-## 🚀 Demo & Links
-
-- **Live Demo:** [https://demo.meetmind.ai](#) *(Placeholder)*
-- **Frontend Deployment:** [https://meetmind-frontend.vercel.app](#) *(Placeholder)*
-- **Backend API:** [https://api.meetmind.ai/v1](#) *(Placeholder)*
-- **API Health Route:** [https://api.meetmind.ai/health](#) *(Placeholder)*
-
----
-
 ## ⚙️ Installation & Local Setup
 
 Clone the repository to your local machine:
@@ -198,12 +189,7 @@ The backend will start on `http://localhost:5000`.
 
 ## 🔐 Environment Variables
 
-Ensure you create `.env` files in both the `frontend` and `backend` directories before running the application.
-
-### Frontend (`frontend/.env`)
-```env
-VITE_API_URL=http://localhost:5000/api/v1
-```
+Ensure you create `.env` files in both the `backend` directories before running the application.
 
 ### Backend (`backend/.env`)
 ```env
@@ -217,34 +203,6 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 ```
-
----
-
-## 📂 Folder Structure
-
-```text
-meetmind-ai/
-├── frontend/                 # React SPA
-│   ├── src/
-│   │   ├── components/       # Reusable UI primitives
-│   │   ├── features/         # Domain-specific modules
-│   │   ├── hooks/            # Custom React hooks & queries
-│   │   ├── store/            # Zustand state slices
-│   │   ├── utils/            # Helpers & formatting
-│   │   └── App.tsx           # Router configuration
-│   └── package.json
-└── backend/                  # Express API
-    ├── src/
-    │   ├── config/           # Environment & DB setup
-    │   ├── controllers/      # Route logic & request handling
-    │   ├── middlewares/      # Auth, upload & error handling
-    │   ├── models/           # Mongoose schemas
-    │   ├── routes/           # API endpoints routing
-    │   ├── services/         # AI, Media, and Business logic
-    │   └── server.ts         # Application entry point
-    └── package.json
-```
-
 ---
 
 ## 🛡️ Deep Dive: Security Features
@@ -327,13 +285,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <p>Built with passion by the <strong>MeetMind AI Team</strong></p>
   
-  <a href="https://github.com/yourusername" target="_blank">
+  <a href="https://github.com/naresh-kamarthy" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://linkedin.com/in/yourusername" target="_blank">
+  <a href="https://www.linkedin.com/in/naresh-kamarthy-aa1239130" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://yourportfolio.com" target="_blank">
+  <a href="https://naresh-kamarthy-portfolio.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
   </a>
 </div>
